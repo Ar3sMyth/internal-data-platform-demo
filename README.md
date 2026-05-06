@@ -1,8 +1,8 @@
 # Internal Data Platform Demo
 
-Sistema full-stack para importacao, padronizacao, consulta, exportacao e auditoria de registros tabulares. Esta e uma versao preparada para portfolio, baseada em codigo de um cenario real, mas sem dados, logos, clientes, credenciais ou regras internas de empresa.
+Sistema full-stack para importacao, padronizacao, consulta, exportacao e auditoria de registros tabulares. Esta e uma versao publica preparada para portfolio, baseada em necessidades comuns de operacoes orientadas por dados, sem dados reais, logos, clientes, credenciais ou regras internas de empresa.
 
-> Projeto em sanitizacao. A estrutura principal foi preservada para demonstrar arquitetura, modulos e fluxo tecnico.
+O objetivo do projeto e demonstrar arquitetura, organizacao de modulos e fluxo tecnico em uma aplicacao interna completa: API, importacao de planilhas, validacao, filtros, exportacoes, dashboard e rastreabilidade.
 
 ## Stack
 
@@ -71,7 +71,6 @@ Esta versao nao inclui banco real, uploads, planilhas, arquivos exportados, logo
 ## Proximas Melhorias
 
 - Gerar fixtures sinteticas para demonstracao.
-- Revisar nomes de dominio do backend para ficarem totalmente genericos.
 - Adicionar testes automatizados para validacao e importacao.
 - Adicionar screenshots e fluxo de arquitetura.
 - Preparar deploy local via Docker Compose.
